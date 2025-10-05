@@ -52,7 +52,8 @@ By decoupling the database from the web server, this architecture achieves:
 ### 4. Configure WordPress with RDS
 * Open `wp-config.php`:
 * Update with your RDS details :
-```define('DB_NAME', 'wordpressdb');
+```
+define('DB_NAME', 'wordpressdb');
 define('DB_USER', 'wp_user');
 define('DB_PASSWORD', 'YourPassword');
 define('DB_HOST', 'yt-wordpress.c32yqweg2qug.ap-southeast-1.rds.amazonaws.com');
